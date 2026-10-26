@@ -1,101 +1,86 @@
 # Novalon House Studio
 
-**Current Windows release: 0.1.21** · [Versioned release page and downloads](https://github.com/MiMat82/Nova-Home-releases/releases/tag/v0.1.21)
+**Current Windows release: 0.1.22** · [Release and downloads](https://github.com/MiMat82/Nova-Home-releases/releases/tag/v0.1.22)
 
-*Release guide refreshed 26 October 2026. The application remains version 0.1.21; this documentation refresh does not change the download.*
-
-**Offline home planning for Windows — draw measured plans, arrange rooms and furniture, explore the building in 3D, and export scaled A3 drawings.**
-
-Novalon House Studio is an independent desktop concept-planning application. It runs locally without an account, subscription or Internet connection. This release adds furniture groups and a more flexible 2D/3D workspace.
-
-[**Download Windows x64 ZIP**](https://github.com/MiMat82/Nova-Home-releases/releases/download/v0.1.21/Novalon-House-Studio-0.1.21-windows-x64.zip) · [**View the example A3 plans**](https://github.com/MiMat82/Nova-Home-releases/releases/download/v0.1.21/10x8-grouped-kitchen-A3.pdf)
+An offline, account-free house-planning application for measured plans, furnished interiors, 3D exploration and A3 drawings. Built and tested for **Windows x64**.
 
 ## See the application
 
-![Measured two-floor house in the 2D plan and live 3D workspace](https://raw.githubusercontent.com/MiMat82/Nova-Home-releases/main/assets/0.1.21/overview.png)
+![Final 0.1.22 desktop: measured 10 × 8 metre house beside the rear avatar view](https://raw.githubusercontent.com/MiMat82/Nova-Home-releases/v0.1.22/assets/0.1.22/overview.png)
 
-**Plan and model together.** Select and edit in 2D; the 3D view follows the same measured geometry. The included example is a two-floor, 10 × 8 metre house.
+The two-floor synthetic house is open in **2D + 3D**. Select an element in the plan to edit it; use **Orbit**, **Avatar view** or **Walk inside** to inspect the same building.
 
-## What's new in 0.1.21
+![Referenced window measurement selected with separate line and label offsets](https://raw.githubusercontent.com/MiMat82/Nova-Home-releases/v0.1.22/assets/0.1.22/dimensions.png)
 
-- **Furniture multi-selection:** Shift-click items or use Box select to build a selection.
-- **Named furniture groups:** save a kitchen or other arrangement; clicking one member selects the whole group.
-- **Shared movement and rotation:** use the centre handle, rotation handle, keyboard nudges or exact Properties values. Rotation uses 15° steps; hold Alt for a free angle.
-- **One undo per gesture:** undo a complete move or rotation; Escape cancels an unfinished drag.
-- **Group protection:** lock a group or a member to block changes to the entire selection.
-- **Coordinated duplication:** copied groups receive new IDs and retain their internal spacing and valid intentional-overlap acknowledgements.
-- **Adjustable workspace:** drag the 2D/3D divider; expand Controls when you need person-height and movement settings.
+Select a window, choose **Measure opening width**, then drag its line or text. Properties show the two jamb references and the true measured width while the label moves independently.
 
-![Furniture selected as a named kitchen group with shared editing handles](https://raw.githubusercontent.com/MiMat82/Nova-Home-releases/main/assets/0.1.21/groups.png)
+![A3 floor-plan preview from the final desktop build with inside chains and product mark](https://raw.githubusercontent.com/MiMat82/Nova-Home-releases/v0.1.22/assets/0.1.22/A3-plan.png)
 
-**Move a complete arrangement.** Select one member of the saved Kitchen group, then move or rotate all six members together. Sizes, spacing and intentional sink/hob overlaps stay coordinated.
+Open **A3 plan** to inspect inside bedroom chains, exterior measurements and the optional product mark. This example uses **1:75**; export the floor plans or use **Drawing set** for the four saved floor, section and facade sheets.
 
 ## What this release can do
 
-- **Draw measured layouts:** connected straight walls, rectangular rooms, hosted doors/windows, room names, areas, text and dimensions. Supported connected-wall edits update adjoining geometry, rooms and openings together.
-- **Work in familiar units:** metres, millimetres or US feet/inches, including fractional input, without changing the stored measurements.
-- **Build across floors:** create and duplicate levels; inspect lower-floor guides and place straight, L-shaped or U-shaped stairs with derived slab openings and railings.
-- **Shape supported roofs:** rectangular gable, hip, shed and flat roofs; joined gable or flat roofs for supported L/U/T outlines. Supported roof footprints follow exterior-wall edits.
-- **Furnish precisely:** place original catalog items, resize and rotate furniture/fixtures, set solid colours, lock objects, create groups and inspect a cross-floor inventory.
-- **Align and review placement:** smart wall-face/furniture snapping, live wall gaps, wall-overlap warnings, furniture-overlap review, drawn single-door-swing warnings and user-chosen access spaces.
-- **Explore the model:** live 3D, four facade views, measured section cuts, Orbit, rear-avatar and immersive eye-height navigation.
-- **Trace local references:** import PNG/JPEG/WebP images, local PDF pages or supported ASCII DXF linework as calibrated passive backgrounds. References guide manual tracing rather than becoming walls automatically.
-- **Draw electrical intent:** place generic, Danish or American symbols; draw and reshape coloured cable routes with labels and measured 2D lengths; include a legend in electrical sheets.
-- **Compose A3 sets:** combine scaled plan, section and facade views with drawing numbers, titles and revisions. Oversize views are refused instead of silently shrunk; layout review can be appended as separate pages.
-- **Save and exchange work:** local `.novahouse` projects, undo/redo, recovery storage, vector PDF/SVG plans, flattened 2D DXF, room-area/inventory CSV and geometry-only OBJ.
-- **Review a bounded Denmark profile:** a local layout-review panel explains its supported checks, missing inputs and unassessed cases. It does not certify a building or replace professional review.
+- **Measured plans:** connected straight walls, hosted doors/windows, room names and areas, metric or US feet/inches input, referenced or fixed dimensions and text.
+- **Floors, roofs and stairs:** multiple levels, lower-floor guides, supported following rectangular/L/U/T roofs and straight/L/U stairs with derived slab openings, handrails and upper guardrails.
+- **Furniture:** direct movement, edge resizing, rotation, locks, named groups, smart alignment and a bounded placement review.
+- **3D exploration:** Orbit, rear-avatar and immersive eye-height views; articulated walking and automatic floor transitions on supported stairs.
+- **Electrical planning:** one catalog with Danish/American symbol choices, editable coloured cable paths and optional A3 legends. Routes represent drawing intent, without electrical engineering calculations.
+- **Local references and projects:** calibrated image/PDF/supported ASCII DXF tracing backgrounds; offline .novahouse save/open, undo and local recovery. No account or subscription is required.
+- **Drawings:** scaled A3 floor plans and composed plan/section/facade sets, three plan styles, selectable measurement content, dimension text height, line weight and reusable local appearances. Oversize output is refused rather than silently shrunk.
 
-## Walk through the building
+## What's new in 0.1.22
 
-![Avatar walking on the modeled stair and landing](https://raw.githubusercontent.com/MiMat82/Nova-Home-releases/main/assets/0.1.21/walkthrough.png)
+- **Measurements follow named features:** wall axes/faces, opening jambs and supported rectangular-room corners now have explicit references. Inside chains include opening jambs; duplicating a level remaps its references. Older point dimensions remain supported.
+- **Direct annotation editing:** drag the dimension line or its text independently, cancel with Escape, and undo a complete gesture once. Manual label position and exact offsets save with the project. A removed host raises **Measurements need review** and stops affected output until reviewed.
+- **Cleaner straight-wall editing:** bounded two-wall miters share geometry across plans, 3D and collision checks. **Split at point** and **Trim start/end at crossing** preserve openings and surviving references, with complete undo. Unsafe cuts are refused.
+- **Shared A3 appearance:** choose authored/automatic measurements, paper text height and line weight; save/apply named local sheet styles. Applied appearance saves in the project, separately from client/revision metadata. Section markers identify related drawing sheets.
+- **Supplied branding applied:** original main mark in the workspace and optional A3 title blocks, original banner in Help, and the approved Windows icon family. Old projects without a branding setting keep unbranded output.
+- **Precision shortcut fix:** Windows Alt menu activation no longer interrupts precision dragging; the app retains its toolbar and editing shortcuts.
 
-**Explore at person height.** Switch between Avatar view, Walk inside and Orbit. Straight, L-shaped and U-shaped stairs support walking in both directions and automatic floor changes.
-
-## Scaled A3 output
-
-![Measured A3 floor-plan output with dimensions and title information](https://raw.githubusercontent.com/MiMat82/Nova-Home-releases/main/assets/0.1.21/a3.png)
-
-**Export measured drawings.** The supplied PDF contains two A3 landscape floor plans at 1:75. Exported sheets include dimensions, titles, scale information and a 100 mm print-calibration bar.
+This follows [0.1.21](https://github.com/MiMat82/Nova-Home-releases/releases/tag/v0.1.21), which introduced furniture groups and adjustable workspace controls.
 
 ## Get started
 
-1. Download the **Windows x64 ZIP** above and extract the complete archive into a writable folder. Keep the files inside the **Novalon House Studio** directory together.
-2. Run **Open-grouped-kitchen.cmd** from the extracted top-level folder to try the supplied house. To start the app directly, open **Novalon House Studio/Novalon House Studio.exe**.
-3. In **2D + 3D**, click a kitchen member to select its saved group. Drag its centre handle to move; drag the round arrow to rotate. Use **Ungroup** before resizing a member individually.
-4. To make your own group, Shift-click furniture or use **Box select**, then choose **Group** / **Ctrl+G**. Rename or lock it in Properties; **Ctrl+Shift+G** ungroups.
-5. For a new design, use **W** for walls, **R** for a rectangular room, **D/G** for doors/windows, and the object library for furnishings. Select an element to enter exact dimensions in Properties.
-6. Choose **Avatar view** or **Walk inside**, click the model, then use **WASD / arrow keys** to move and **Q/E** to turn. Drag the background to look; expand **Controls** for person settings.
-7. Save your design as a **.novahouse** file. Configure **A3 sheets** or a **Drawing set**, review the preview and export. Print at **Actual size / 100%** and measure the calibration bar on a physical test sheet.
+1. Download [Novalon-House-Studio-0.1.22-windows-x64.zip](https://github.com/MiMat82/Nova-Home-releases/releases/download/v0.1.22/Novalon-House-Studio-0.1.22-windows-x64.zip) and extract the **complete** archive into its own folder. Keep the executable's neighboring files together.
+2. Run **Open-precision-house.cmd** for the finished two-floor 10 × 8 m example. Alternatively, start **Novalon House Studio.exe** in the **Novalon House Studio** folder and open a saved project with Ctrl+O.
+3. In **2D plan**, select a window → **Measure opening width**. Select Bedroom in the room list → **Add inside measurement chains**. Drag a dimension line, then drag its label; change the window width to see the reference update.
+4. Select a wall → **Measure centreline**, **Measure left face** or **Measure right face**. For a cut, choose **Split at point** and click outside openings; for a trim, choose the end and click a crossing wall. Use Undo to restore the complete edit.
+5. In **A3 plan**, set **Dimension text height / paper mm**, **Drawing line weight**, **Measurements on plan** and **Product logo on A3 sheets**. Enter a **Sheet style name**, then **Save current sheet style**. Applied appearance saves with the project; the named style library stays on this computer.
+6. Use **Save project** for a .novahouse file. **Export all levels** writes the two floor pages; **Drawing set** → **Export complete A3 drawing set** writes the four saved sheets. Print at **100% / Actual size** and measure the floor-sheet 100 mm calibration bar on a test print.
 
 ## How to update safely
 
-Updates are manual: download and extract the complete ZIP for each new version.
+1. In the old app, save each design to a .novahouse file and make an independent backup. A recovered draft in a local profile is not a project-file backup.
+2. Close the old app. Extract the new Windows ZIP into a separate versioned folder; retain the previous working release and its files for rollback.
+3. Start the new app and open a **copy** of a saved project. Inspect its 2D plan, 3D model and A3 output, then save under a new filename.
+4. All **48 synthetic saved examples** passed current validation and semantic save/reload. The **47 prior examples** were hash-checked unchanged. Older releases are not promised to understand new measurement-reference or appearance fields; keep the original project backup for rollback.
 
-- Save every open design as a `.novahouse` file and keep a separate backup before updating. Local recovery is not a project-file backup.
-- Close the older app. Download 0.1.21 and extract it into a **new versioned folder**; retain the previous working folder for rollback.
-- Run the new executable and open a **copy** of your saved project with **Ctrl+O**. Earlier projects without groups are supported. Review floors, openings, furniture and sheets, then save the updated copy under a new name.
-- The example launcher uses its own version-specific local profile. Your existing work may need to be opened explicitly from its saved project file.
-- Keep the original project and older executable together for rollback. Backward compatibility of new group metadata with older app versions is not verified.
+Updating is **manual**; there is no automatic updater or cloud synchronization. The bundled example launcher uses a separate local profile for this version and does not transfer an older example's recovered draft. Named sheet styles and workspace preferences are local to the profile.
 
-## Package and verification
+## Included downloads and verification
 
-- **Target:** portable Windows x64; tested on the development Windows 11 machine. The executable is unsigned.
-- **Included:** complete app directory, editable two-floor example, example launcher, quick-start text and two-page A3 PDF.
-- **Recorded release checks:** 1,619 automated tests passed; 159 packaged native checks passed; 47 saved synthetic projects checked; three PDFs containing seven A3 pages checked.
-- **Release files:** [verification receipt](https://github.com/MiMat82/Nova-Home-releases/releases/download/v0.1.21/VERIFICATION.json), [manifest](https://github.com/MiMat82/Nova-Home-releases/releases/download/v0.1.21/release-manifest.json) and [SHA-256 checksums](https://github.com/MiMat82/Nova-Home-releases/releases/download/v0.1.21/SHA256SUMS.txt).
-- **Application source revision:** `079d68bf07203bd09f590c169502a97a093b73a4`. Presentation/documentation updates do not change the packaged application.
-- **Windows ZIP SHA-256:** `5decb45a2a6a4fc0b3cb9721df35abb00dd467684066a5c1afd5a361187f332e`.
+- **Windows x64 portable ZIP:** complete application, dependency notices, example launcher, .novahouse house and both A3 PDFs.
+- [10x8-floor-plans-A3.pdf](https://github.com/MiMat82/Nova-Home-releases/releases/download/v0.1.22/10x8-floor-plans-A3.pdf): **2 A3 landscape pages at 1:75**.
+- [10x8-drawing-set-A3.pdf](https://github.com/MiMat82/Nova-Home-releases/releases/download/v0.1.22/10x8-drawing-set-A3.pdf): **4 A3 landscape pages at 1:75**: ground, upper, section A-A and north facade.
+- [VERIFICATION.json](https://github.com/MiMat82/Nova-Home-releases/releases/download/v0.1.22/VERIFICATION.json): sanitized verification receipt.
+- [release-manifest.json](https://github.com/MiMat82/Nova-Home-releases/releases/download/v0.1.22/release-manifest.json) and [SHA256SUMS.txt](https://github.com/MiMat82/Nova-Home-releases/releases/download/v0.1.22/SHA256SUMS.txt): asset sizes, source revision and SHA-256 values.
+- **Package source commit:** `282e8f008432f82e826ef7831f2b0d05562c5d2e`. Later guide-only commits do not change the binary's source identity.
+- **Verified on Windows 11 x64:** **1,661 automated tests**, **24 release-guide tests**, **176 packaged desktop checks**, **48 saved projects**, and **7 PDFs / 19 A3 pages**. The bundled plans were compared with exports from the exact final package: matching text, images and drawing operators within 0.0000001 PDF point numeric tolerance.
+- **Preservation:** 27 prior package/example artifacts and all 47 prior saved examples remained unchanged. The application made no remote requests during the packaged native exercises.
+
+SHA-256 checksums:
+
+```text
+11b81378a4603bfe78b23fac1cda4f888082474e7c79b38d2e5ba62d5b2101c1  Novalon-House-Studio-0.1.22-windows-x64.zip
+23c7c00a4c20e3c83203ec32072079878a899ad43108fdbc861d0d95eb43cfb1  10x8-floor-plans-A3.pdf
+7c3e24078dcc4c021f70d92d0240a1493da07014514f7ad25ffd46dc4c595ea3  10x8-drawing-set-A3.pdf
+c08cec98fb2196ad5309a3b576ea7ceb391e2b419346e439ba441dd276fcbe22  VERIFICATION.json
+```
 
 ## Current limits
 
-- Groups are flat furniture/fixture arrangements; nested groups, group scaling and grouping stairs/structural/site/electrical objects are not included.
-- The model is for concept planning. It does not provide complete BIM, structural engineering, electrical calculations, automatic code approval, photorealistic rendering or arbitrary roof construction.
-- Placement warnings use bounded geometric checks, not a complete accessibility, circulation or detailed-mesh assessment. Electrical routes show planning intent; lengths exclude vertical runs and allowances.
-- Physical printing, clean-machine installation and prolonged use remain unverified. PDF scale checks do not establish real-printer calibration.
-- **Android APK and iOS IPA builds are not available.** This release contains Windows software only.
-
-## Release archive
-
-[All published versions](https://github.com/MiMat82/Nova-Home-releases/releases). Retain earlier working releases and their matching project backups when updating.
-
-The repository stores small release guides, curated screenshots and verification records. Download the application ZIP from Releases; GitHub's source-code archives are not runnable application packages.
+- Concept planning, rather than certified BIM, permit documents or complete regulatory/electrical compliance. The offline Denmark review covers only its explicitly listed checks.
+- Wall joins are bounded two-wall miters, with conservative butt geometry at unsupported junctions. Split/trim use straight walls and actual bounded crossings; trim does not extend a wall. Inside chains require axis-aligned rectangular rooms, including collinear partition vertices. Dimensions measure geometry; they do not drive it.
+- Dense drawings and manual text placements need review. The logo is an optional raster image; drawing geometry remains vector. Standard PDF fonts substitute unsupported characters. Styles are local preferences, without cross-computer synchronization.
+- Native checks use synthetic projects and programmed file-dialog responses. Physical A3 printing, clean-machine installation and long-duration operation are unverified. Verify paper scale on a physical print.
+- The Windows package is **unsigned**. **Android APK and iOS IPA builds are not implemented or included.**

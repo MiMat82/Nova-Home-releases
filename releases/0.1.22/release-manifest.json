@@ -1,0 +1,32 @@
+{
+  "version": "0.1.22",
+  "verified": true,
+  "sourceRepository": "MiMat82/Novo-Home",
+  "sourceCommit": "282e8f008432f82e826ef7831f2b0d05562c5d2e",
+  "releaseRepository": "MiMat82/Nova-Home-releases",
+  "platforms": [
+    "windows-x64"
+  ],
+  "assets": [
+    {
+      "file": "Novalon-House-Studio-0.1.22-windows-x64.zip",
+      "bytes": 162300158,
+      "sha256": "11b81378a4603bfe78b23fac1cda4f888082474e7c79b38d2e5ba62d5b2101c1"
+    },
+    {
+      "file": "10x8-floor-plans-A3.pdf",
+      "bytes": 54285,
+      "sha256": "23c7c00a4c20e3c83203ec32072079878a899ad43108fdbc861d0d95eb43cfb1"
+    },
+    {
+      "file": "10x8-drawing-set-A3.pdf",
+      "bytes": 87248,
+      "sha256": "7c3e24078dcc4c021f70d92d0240a1493da07014514f7ad25ffd46dc4c595ea3"
+    },
+    {
+      "file": "VERIFICATION.json",
+      "bytes": 1108,
+      "sha256": "c08cec98fb2196ad5309a3b576ea7ceb391e2b419346e439ba441dd276fcbe22"
+    }
+  ]
+}

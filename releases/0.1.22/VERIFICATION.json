@@ -1,0 +1,61 @@
+{
+  "version": "0.1.22",
+  "sourceCommit": "282e8f008432f82e826ef7831f2b0d05562c5d2e",
+  "tests": {
+    "passed": 1661,
+    "failed": 0
+  },
+  "releaseGuideTests": {
+    "passed": 24,
+    "failed": 0
+  },
+  "nativeChecks": {
+    "precision": 35,
+    "example": 5,
+    "grouping": 42,
+    "placement": 31,
+    "gait": 63,
+    "total": 176
+  },
+  "savedProjectsChecked": 48,
+  "unchangedPriorExamples": 47,
+  "A3Pdfs": [
+    {
+      "pages": 2,
+      "A3Landscape": true
+    },
+    {
+      "pages": 4,
+      "A3Landscape": true
+    },
+    {
+      "pages": 1,
+      "A3Landscape": true
+    },
+    {
+      "pages": 2,
+      "A3Landscape": true
+    },
+    {
+      "pages": 2,
+      "A3Landscape": true
+    },
+    {
+      "pages": 4,
+      "A3Landscape": true
+    },
+    {
+      "pages": 4,
+      "A3Landscape": true
+    }
+  ],
+  "offline": true,
+  "platform": "Windows x64",
+  "notVerified": [
+    "Physical A3 printing",
+    "Clean-machine installation",
+    "Long-duration operation",
+    "Complete regulatory compliance"
+  ],
+  "mobileBuilds": []
+}
