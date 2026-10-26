@@ -1,0 +1,39 @@
+{
+  "version": "0.1.21",
+  "sourceCommit": "079d68bf07203bd09f590c169502a97a093b73a4",
+  "tests": {
+    "passed": 1619,
+    "failed": 0
+  },
+  "nativeChecks": {
+    "grouping": 42,
+    "placement": 31,
+    "rotation": 23,
+    "gait": 63,
+    "total": 159
+  },
+  "savedProjectsChecked": 47,
+  "A3Pdfs": [
+    {
+      "pages": 2,
+      "A3Landscape": true
+    },
+    {
+      "pages": 1,
+      "A3Landscape": true
+    },
+    {
+      "pages": 4,
+      "A3Landscape": true
+    }
+  ],
+  "offline": true,
+  "platform": "Windows x64",
+  "notVerified": [
+    "Physical A3 printing",
+    "Clean-machine installation",
+    "Long-duration use",
+    "Complete regulatory compliance"
+  ],
+  "mobileBuilds": []
+}

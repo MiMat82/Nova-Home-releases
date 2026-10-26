@@ -1,0 +1,27 @@
+{
+  "version": "0.1.21",
+  "verified": true,
+  "sourceRepository": "MiMat82/Novo-Home",
+  "sourceCommit": "079d68bf07203bd09f590c169502a97a093b73a4",
+  "releaseRepository": "MiMat82/Nova-Home-releases",
+  "platforms": [
+    "windows-x64"
+  ],
+  "assets": [
+    {
+      "file": "Novalon-House-Studio-0.1.21-windows-x64.zip",
+      "bytes": 161334563,
+      "sha256": "5decb45a2a6a4fc0b3cb9721df35abb00dd467684066a5c1afd5a361187f332e"
+    },
+    {
+      "file": "10x8-grouped-kitchen-A3.pdf",
+      "bytes": 16014,
+      "sha256": "0bdb0ed7dba9497dc54c13b27a6ee412779ece877f50001a2e63705c203b3084"
+    },
+    {
+      "file": "VERIFICATION.json",
+      "bytes": 737,
+      "sha256": "f5837f86ff6068630b30b4c37820498eed45a06c45a92df25b14f743ff347d0a"
+    }
+  ]
+}

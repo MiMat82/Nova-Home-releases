@@ -1,0 +1,4 @@
+5decb45a2a6a4fc0b3cb9721df35abb00dd467684066a5c1afd5a361187f332e  Novalon-House-Studio-0.1.21-windows-x64.zip
+0bdb0ed7dba9497dc54c13b27a6ee412779ece877f50001a2e63705c203b3084  10x8-grouped-kitchen-A3.pdf
+f5837f86ff6068630b30b4c37820498eed45a06c45a92df25b14f743ff347d0a  VERIFICATION.json
+ca5f7cbcfd84029a91a115d60acb67e11a70687901e50feb7bb524a1134d7b2a  release-manifest.json
