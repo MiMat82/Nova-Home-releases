@@ -1,0 +1,37 @@
+{
+  "version": "0.1.23",
+  "verified": true,
+  "sourceRepository": "MiMat82/Novo-Home",
+  "sourceCommit": "30957c263030f542caa5757e337f2da7910d46b5",
+  "releaseRepository": "MiMat82/Nova-Home-releases",
+  "platforms": [
+    "windows-x64"
+  ],
+  "assets": [
+    {
+      "file": "Novalon-House-Studio-0.1.23-windows-x64.zip",
+      "bytes": 162361344,
+      "sha256": "e8bc851fd99790b1d570edeb88b5271e5e9501b10bd467b9e798c00f132c30ae"
+    },
+    {
+      "file": "10x8-tagged-plans-A3.pdf",
+      "bytes": 55126,
+      "sha256": "57f38fec1ece8b9499ce08c514c11203759659160e08654f86031dc4d6a4a47a"
+    },
+    {
+      "file": "10x8-opening-schedules-A3.pdf",
+      "bytes": 48978,
+      "sha256": "bd200bc8f9d50144432075efa6735aef7491b8c435508b825f1fac2f0e79d95e"
+    },
+    {
+      "file": "10x8-coordinated-set-A3.pdf",
+      "bytes": 94104,
+      "sha256": "772fb2d4da76ed44f003a5ff225a965b068c0fa89cdf909858895416a1ce07a9"
+    },
+    {
+      "file": "VERIFICATION.json",
+      "bytes": 1334,
+      "sha256": "10ed2dae09bdceec5681ec297213c3a9bee5b1f3153c403265eac53b192a9d00"
+    }
+  ]
+}
